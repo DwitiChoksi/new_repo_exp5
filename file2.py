@@ -26,6 +26,6 @@ for _ in range(100):
     print(f'MSE Result: { test_mse}')
     print("Average Mean Squared Error:", average_mse)
     # Write metrics to file
-    with open('metrics.txt', 'w') as outfile:
-outfile.write(f'\n Mean Squared Error = {average_mse}.')
+with open('metrics.txt', 'w') as outfile:
+    outfile.write(f'\n Mean Squared Error = {average_mse}.')
 
